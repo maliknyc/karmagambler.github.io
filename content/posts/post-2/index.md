@@ -48,7 +48,7 @@ Solving for \(X_2\):
 \[
 X_2 = \exp\left(\frac{\ln(1150) - 0.3679 \cdot \ln(1,000 + X_1)}{0.6321}\right) - 1,000
 \]
-If $\gamma \neq 1$, the indifference condition becomes:
+If \(\gamma \neq 1\), the indifference condition becomes:
 \[
 \frac{(1,000 + 150)^{1-\gamma} - 1}{1 - \gamma} = 0.3679 \cdot \frac{(1,000 + X1)^{1-\gamma} - 1}{1 - \gamma} + 0.6321 \cdot \frac{(1,000 + X2)^{1-\gamma} - 1}{1 - \gamma}
 \]
