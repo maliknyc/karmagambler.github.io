@@ -10,7 +10,7 @@ There's no rigid theme, but my current interests are largely divided between:
 1. Metaphyiscs &mdash; the philosophy of self, free will, Buddhist philosophy
 2. Betting &mdash; risk behavior, betting strategies, prediction markets
 
-A bit about me: I'm a college student majoring in econ & data science who's trying to more about:
+A bit about me: I'm a college student majoring in econ & data science who's trying to learn more about:
 - Behavioral economics
 - Decision theory
 - Game theory
