@@ -73,7 +73,7 @@ X^* = 1,000 - \left( \frac{1,000^{0.3} - 1 - \exp\left(-\left(-\ln 0.02\right)^{
 \[
 X^* \approx -18.23
 \]
-In this context, negative $X^*$ values are incoherent and should be rejected.
+In this context, negative \(X^*\) values are incoherent and should be rejected.
 
 To save us from further calculations, the table below presents the $X^*$ values across many combinations of \(\alpha\) and \(\gamma\). Each instance where $X^*$ is negative is marked as "undef." Here, not only can we see the swaths of incoherent $X^*$'s, but we also observe a non-monotonic relationship between $X^*$ and \(\alpha\). For any column \(\gamma\), going from top to bottom (or bottom to top) we see that $X^*$ increases and then decreases as \(\alpha\) varies, suggesting inconsistencies in the over- and under-weighting patterns. We also see a curious risk aversion misalignment: For any particular row \(\alpha\), going from left to right, we can see that $X^*$ starts off slowly decreasing, and then begins rapidly increasing at higher \(\gamma\) levels. This is problematic, as it contradicts the intuitive expectation that for participants with the same level of probability weighting, the participants with the greater risk aversion should be \textbf{less} tolerant of loss prospects in the risky option. Also, when we observe the uneven inverted-U shaped relationship between $X^*$ and \(\alpha\), we see that at higher levels of \(\gamma\), there are unrealistic and \textbf{dramatic} jumps in $X^*$ when transitioning from \(\alpha = 1\) to \(\alpha = 0.95\).
 
