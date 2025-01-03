@@ -40,3 +40,35 @@ $$
 \frac{(2,000)^{1-\gamma} - 1}{1 - \gamma} + \exp\left(-\left(-\ln 0.98\right)^{\alpha}\right)
 \cdot \frac{(1,000-X^*)^{1-\gamma} - 1}{1 - \gamma}
 $$
+When put into practice, this approach seems to run into a \textbf{plethora of issues}. To start, since Prelec's function is non-linear, it is \textbf{typically true} that \(w_{gain} + w_{loss} \neq 1\). This disrupts the coherence of the probability space but is likely not a direct deal-breaker for modeling irrational probability perceptions. We will also encounter many undefined or incoherent solutions for \(X^*\), especially at the "higher" combinations of \(\alpha\) and \(\gamma\) where \(W_{loss} = W_0 - X^* \geq 0\) and the \(X^*\) values turn negative. Let us go through an example calculation of $X^*$ where \(\alpha = 0.25\) and \(\gamma = 0.7\). First, we can establish our CRRA utility function:
+$$
+u(w) = \frac{w^{0.3}-1}{0.3}
+$$
+Then, we can compute the utility of Option A (the safe option):
+$$
+u(1,000) = \frac{1,000^{0.3}-1}{0.3}
+$$
+The expected utility of Option B will be:
+$$
+\mathbf{E}[u(W)] = \exp\left(-\left(-\ln 0.02\right)^{0.25}\right) \cdot 
+\frac{(2,000)^{0.3} - 1}{0.3} + \exp\left(-\left(-\ln0.98\right)^{0.25}\right)\cdot \frac{(1,000-X^*)^{0.3} - 1}{0.3}
+$$
+Setting the utility of Option A equal to the expected utility of Option B yields:
+$$
+\frac{1,000^{0.3}-1}{0.3} = \exp\left(-\left(-\ln 0.02\right)^{0.25}\right) \cdot 
+\frac{(2,000)^{0.3} - 1}{0.3} + \exp\left(-\left(-\ln0.98\right)^{0.25}\right)\cdot \frac{(1,000-X^*)^{0.3} - 1}{0.3}
+$$
+Simplifying and solving for $X^*$:
+\[
+1,000^{0.3} - 1 - \exp\left(-\left(-\ln 0.02\right)^{0.25}\right) \cdot (2,000^{0.3} - 1) = \exp\left(-\left(-\ln 0.98\right)^{0.25}\right) \cdot \left( (1,000 - X^*)^{0.3} - 1 \right)
+\]
+\[
+(1,000 - X^*) = \left( \frac{1,000^{0.3} - 1 - \exp\left(-\left(-\ln 0.02\right)^{0.25}\right) \cdot (2,000^{0.3} - 1) + \exp\left(-\left(-\ln 0.98\right)^{0.25}\right)}{\exp\left(-\left(-\ln 0.98\right)^{0.25}\right)} \right)^{\frac{1}{0.3}}
+\]
+\[
+X^* = 1,000 - \left( \frac{1,000^{0.3} - 1 - \exp\left(-\left(-\ln 0.02\right)^{0.25}\right) \cdot (2,000^{0.3} - 1) + \exp\left(-\left(-\ln 0.98\right)^{0.25}\right)}{\exp\left(-\left(-\ln 0.98\right)^{0.25}\right)} \right)^{\frac{1}{0.3}}
+\]
+\[
+X^* \approx -18.23
+\]
+In this context, negative $X^*$ values are incoherent and should be rejected. 
