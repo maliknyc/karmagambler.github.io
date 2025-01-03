@@ -13,9 +13,11 @@ $$
     \end{cases}
 $$
 
-    Where:
+Where:
     - \( W \): the final wealth.
     - \( \gamma \): the relative risk aversion . A higher \(\gamma\) corresponds with greater risk-aversion, while \(\gamma = 1\) indicates risk-neutrality.
     - \( \ln(W) \): logarithmic utility when \(\gamma = 1\), as \(\lim_{x\to1}\frac{x^{1-\gamma}-1}{1-\gamma}\) converges to \(\ln(x)\).
 
 CRRA utility entails decreasing absolute risk aversion, the intuitive preference of taking on \textbf{less} risk as wealth increases.
+
+
