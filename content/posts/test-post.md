@@ -25,4 +25,4 @@ A few of my hobbies:
 - Playing [Zetamac](https://arithmetic.zetamac.com/) &mdash; try to beat my high score of **144** on default settings (my highest **recorded** score was [this](https://youtube.com/shorts/MTKPN-nnpSw?si=8bV_O5dnGV-WqTAy))
 - Cooking &mdash; I make really good fried rice, steak, pan-roasted fish, and steamed eggs
 - Listening to music & making [Spotify](https://open.spotify.com/user/ow6ad6boduguylrvmmq94t63d?si=75bac8c432a840d6) playlists
-- Drawing, though I'm extremely out of practice
+- Drawing, sometimes
