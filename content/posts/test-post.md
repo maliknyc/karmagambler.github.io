@@ -19,7 +19,7 @@ A bit about me: I'm a college student majoring in econ & data science who's tryi
 - Sports
 - Alternative markets
 
-A few of my hobbies:
+Some hobbies of mine:
 - Chess &mdash; I'm very rusty, but send me a challenge on [Chess.com](https://www.chess.com/member/salcastuchiano) or catch me @ the [Chess Forum](https://www.chessforum.com/) when I'm home in NY
 - Watching NBA & UFC &mdash; big fan of the Knicks & Petr Yan
 - Playing [Zetamac](https://arithmetic.zetamac.com/) &mdash; try to beat my high score of **144** on default settings (my highest **recorded** score was [this](https://youtube.com/shorts/MTKPN-nnpSw?si=8bV_O5dnGV-WqTAy))
