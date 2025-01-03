@@ -105,3 +105,6 @@ This approach seems to address almost **all** of the issues we encountered in th
 ![Image alt](images/Framed_Prelec_Table.png)
 #### (Figure 2)
 ![Image alt](images/Framed_Plot.png)
+
+Now, let us proceed with strategy (b) in constructing our probability weighting quiz. Similar to the risk aversion quiz, we will use adaptive questioning to elicit the participant's probability weighting coefficient. We will also incorporate the participant's risk aversion coefficient &mdash; obtained from the risk aversion quiz &mdash; to tailor the probability weighting questions they are asked. The \(\approx\) 63:37 split in Option B of the risk aversion quiz was deliberately chosen to align with the fixed inflection point at \(1/e\) in our weighting function. This inflection point is where subjective and objective probabilities are always equal. By using this split and making the strong assumption that \(\approx36.79\%\) probabilities are generally accurately perceived, we can make another strong assumption that responses to the risk aversion quiz were not influenced by probability weighting. This allows us to isolate and independently measure both risk aversion and probability weighting.
+Let us go through the construction and administration of the probability weighting quiz:
