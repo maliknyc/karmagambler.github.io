@@ -68,5 +68,7 @@ To save us time, I made a table with the appropriate \(X_2\) values for many com
 
 Now, we can administer the quiz using an adaptive questioning strategy that elicits an approximate \(\gamma\).
 
+1. Start at some moderate \(\gamma\) value such as \(\gamma = 1\) (logarithmic utility), any \(X_1\) value, and their correspodning \(X_2\) value. An example is as follows:
+    - Bruh 
 
 
