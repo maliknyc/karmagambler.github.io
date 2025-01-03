@@ -58,7 +58,7 @@ $$
 \frac{1,000^{0.3}-1}{0.3} = \exp\left(-\left(-\ln 0.02\right)^{0.25}\right) \cdot 
 \frac{(2,000)^{0.3} - 1}{0.3} + \exp\left(-\left(-\ln0.98\right)^{0.25}\right)\cdot \frac{(1,000-X^*)^{0.3} - 1}{0.3}
 $$
-Simplifying and solving for $X^*$:
+Simplifying and solving for \(X^*\):
 \[
 1,000^{0.3} - 1 - \exp\left(-\left(-\ln 0.02\right)^{0.25}\right) \cdot (2,000^{0.3} - 1) = \exp\left(-\left(-\ln 0.98\right)^{0.25}\right) \cdot \left( (1,000 - X^*)^{0.3} - 1 \right)
 \]
