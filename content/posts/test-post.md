@@ -1,6 +1,6 @@
 +++
 title = 'Test Post'
-date = '2025-01-02T16:51:37-05:00'
+date = '2025-01-02'
 +++
 
 Testing!
