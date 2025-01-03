@@ -99,5 +99,9 @@ $$
 $$
 This approach seems to address almost **all** of the issues we encountered in the previous strategy:
 - **Additivity of Weighted Probabilities:** If \(w_{loss} = 1 - w_{gain}\), we know that \(w_{gain} + w_{loss} = 1\). This ensures a more coherent and consistent probability space.
-- **Stable and Well-Defined Solutions:** As can be observed in Table 3, \(X^*\) becomes defined across all relevant parameter values, allowing us to construct questions at higher combinations of \(\alpha\) and \(\gamma\).
+- **Stable and Well-Defined Solutions:** As can be observed in Table 2, \(X^*\) becomes defined across all relevant parameter values, allowing us to construct questions at higher combinations of \(\alpha\) and \(\gamma\).
 - **Consistent and Intuitive Patterns:** Here, the relationship between \(X^*\) and \(\alpha\) tends to be monotonic. For any column \(\gamma\), going from top to bottom, we see that \(X^*\) decreases as \(\alpha\) increases. We also see that for any particular row \(\alpha\), going from left to right, \(X^*\) monotonically decreases. This also aligns with the intuitive expectation that all else equal, more risk-averse individuals should be less tolerant of loss prospects in risky options. We also see much smoother transitions in \(X^*\) as \(\alpha\) varies.
+#### (Table 2)
+![Image alt](images/Framed_Prelec_Table.png)
+#### (Figure 2)
+![Image alt](images/Framed_Plot.png)
