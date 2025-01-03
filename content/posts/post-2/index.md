@@ -4,7 +4,7 @@ date = '2025-01-02'
 math = true
 +++
 
-We want to understand how risk-averse a person is. The plan involves developing a quiz (or experimental task) that asks participants to choose between safe and risky options. By analyzing their choices, we can estimate their *risk-aversion coefficient*, \(\gamma\), using the constant relative risk aversion (CRRA) utility framework defined as:
+Let's look at a way to assess someone's risk-aversion level. The plan involves developing a quiz (or experimental task) that asks participants to choose between several safe and risky options. By analyzing their choices, we can estimate their *risk-aversion coefficient*, \(\gamma\), using the constant relative risk aversion (CRRA) utility framework defined as:
 
 $$
     u(W) = \begin{cases}
