@@ -1,4 +1,9 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'The Generate Gambler'
+title = 'karma gambler'
 theme = 'ardeidae'
+
+[params]
+github = "https://github.com/maliknyc"
+dateform = "2025-01-02"
+email = "felixliangnyc@gmail.com"
