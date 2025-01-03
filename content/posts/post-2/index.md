@@ -66,5 +66,7 @@ To save us time, I made a table with the appropriate \(X_2\) values for many com
 
 ![Image alt](images/CRRA_table.png)
 
-Now, we can administer the quiz using an adaptive questioning strategy that estimates \(\gamma\):
+Now, we can administer the quiz using an adaptive questioning strategy that elicits an approximate \(\gamma\).
+
+
 
