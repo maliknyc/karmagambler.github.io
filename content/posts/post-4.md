@@ -43,9 +43,6 @@ $$
 $$
 Computing the derivative:
 $$
-\frac{d}{df} \mathbf{E}[u(W_{\text{final}})] &= p \cdot \frac{d}{df} \left[ \frac{(1 + f b)^{1 - \gamma} - 1}{1 - \gamma} \right] + (1 - p) \cdot \frac{d}{df} \left[ \frac{(1 - f)^{1 - \gamma} - 1}{1 - \gamma} \right]
-$$
-$$
 \begin{align*}
 \frac{d}{df} \mathbf{E}[u(W_{\text{final}})] &= p \cdot \frac{d}{df} \left[ \frac{(1 + f b)^{1 - \gamma} - 1}{1 - \gamma} \right] + (1 - p) \cdot \frac{d}{df} \left[ \frac{(1 - f)^{1 - \gamma} - 1}{1 - \gamma} \right] \\
 &= p \cdot (1 + f b)^{-\gamma} \cdot b + (1 - p) \cdot (1 - f)^{-\gamma} \cdot (-1) \\
