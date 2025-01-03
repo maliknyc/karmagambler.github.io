@@ -63,4 +63,8 @@ Solving for \(X_2\):
 X_2 = \left( \frac{(1150)^{1-\gamma} - 0.3679 \cdot (1,000 + X_1)^{1-\gamma}}{0.6321} \right)^{\frac{1}{1-\gamma}} - 1,000
 \]
 To save us time, I made a table with the appropriate \(X_2\) values for many combinations of \(X_1\) and \(\gamma\):
+
 ![Image alt](images/CRRA_table.png)
+
+Now, we can administer the quiz using an adaptive questioning strategy that estimates \(\gamma\):
+
