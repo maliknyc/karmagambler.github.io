@@ -69,6 +69,11 @@ To save us time, I made a table with the appropriate \(X_2\) values for many com
 Now, we can administer the quiz using an adaptive questioning strategy that elicits an approximate \(\gamma\).
 
 1. Start at some moderate \(\gamma\) value such as \(\gamma = 1\) (logarithmic utility), any \(X_1\) value, and their correspodning \(X_2\) value. An example is as follows:
-    - Bruh 
+    - **Option A:** Gain $150 (Total Wealth: $1,150)
+    - **Option B:** 36.79% chance of gaining $200 (Total Wealth: $1,200) and 63.21% chance of gaining $121.87 (Total Wealth: $1,121.87)
+2. 
+    - **If Option A is chosen,** select a question from a higher \(\gamma\) column (e.g.,\(\gamma=1.2\)).
+    - **If Option B is chosen,** select a question from a lower \(\gamma\) column (e.g., \(\gamma=0.8\)).
+3. Continue presenting questions, moving up or down the \(\gamma\) scale based on the participant's initial choice. When the participant reverses their choice direction (e.g., switches from choosing risky to safe or vice versa), the quiz concludes and the \(\gamma\) value that aligns the closest with the last choice provides an estimate of the participant's risk aversion coefficient.
 
 
