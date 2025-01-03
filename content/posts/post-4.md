@@ -54,6 +54,7 @@ $$
 p b \cdot (1 + f b)^{-\gamma} - (1 - p) (1 - f)^{-\gamma} = 0
 $$
 Solving for \(f^*\):
+$$
 \begin{align*}
 \left( \frac{p b}{1 - p} \right)^{\frac{1}{\gamma}} &= \frac{1 + f b}{1 - f} \\
 1 + f b &= \left( \frac{p b}{1 - p} \right)^{\frac{1}{\gamma}} (1 - f) \\
@@ -62,10 +63,16 @@ f b + f \left( \frac{p b}{1 - p} \right)^{\frac{1}{\gamma}} &= \left( \frac{p b}
 f \left( b + \left( \frac{p b}{1 - p} \right)^{\frac{1}{\gamma}} \right) &= \left( \frac{p b}{1 - p} \right)^{\frac{1}{\gamma}} - 1 \\
 f^* &= \frac{\left( \frac{p b}{1 - p} \right)^{\frac{1}{\gamma}} - 1}{b + \left( \frac{p b}{1 - p} \right)^{\frac{1}{\gamma}}} \quad [\text{Generalized CRRA Kelly Criterion}]
 \end{align*}
+$$
 Note: Unlike with the CRRA utility function and logarithmic utility, setting \(\gamma = 1\) actually **directly** yields the standard Kelly Criterion (without the need for L'Hôpital's rule):
+$$
 \begin{align*}
 f^* &= \frac{\left( \frac{p b}{1 - p} \right) - 1}{b + \left( \frac{p b}{1 - p} \right)} \\
 \frac{\frac{p b - (1 - p)}{1 - p}}{b + \frac{p b}{1 - p}} &= \frac{p b - (1 - p)}{b(1 - p) + p b} \\
 \frac{p b - (1 - p)}{b - p b + p b} &= \frac{p b - (1 - p)}{b} \quad [\text{Classical Kelly Criterion}]
 \end{align*}
-In accordance with CRRA utility, a higher \(\gamma$\) creates a more risk-averse strategy with lower optimal betting fractions and reduced volatility. By tailoring \(f^*\) to an individual's \(\gamma\), this generalized CRRA-Kelly strategy provides a more nuanced approach to betting that aligns with personal risk preferences. I would contend that it is potentially a more intuitive way to control risk than "fractional-Kelly" strategies (where a somewhat arbitrary and fixed fraction is applied to the standard Kelly Criterion to reduce volatility and downside). 
+$$
+In accordance with CRRA utility, a higher \(\gamma$\) creates a more risk-averse strategy with lower optimal betting fractions and reduced volatility. By tailoring \(f^*\) to an individual's \(\gamma\), this generalized CRRA-Kelly strategy provides a more nuanced approach to betting that aligns with personal risk preferences. I would contend that it is potentially a more intuitive way to control risk than "fractional-Kelly" strategies (where a somewhat arbitrary and fixed fraction is applied to the standard Kelly Criterion to reduce volatility and downside).
+
+# References
+**Kelly Jr., J. L.** 1956. "A New Interpretation of Information Rate." *Bell System Technical Journal* 35, no. 4: 917–926. https://doi.org/10.1002/j.1538-7305.1956.tb03809.x.
