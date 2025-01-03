@@ -72,7 +72,7 @@ f^* &= \frac{\left( \frac{p b}{1 - p} \right) - 1}{b + \left( \frac{p b}{1 - p} 
 \frac{p b - (1 - p)}{b - p b + p b} &= \frac{p b - (1 - p)}{b} \quad [\text{Classical Kelly Criterion}]
 \end{align*}
 $$
-In accordance with CRRA utility, a higher \(\gamma$\) creates a more risk-averse strategy with lower optimal betting fractions and reduced volatility. By tailoring \(f^*\) to an individual's \(\gamma\), this generalized CRRA-Kelly strategy provides a more nuanced approach to betting that aligns with personal risk preferences. I would contend that it is potentially a more intuitive way to control risk than "fractional-Kelly" strategies (where a somewhat arbitrary and fixed fraction is applied to the standard Kelly Criterion to reduce volatility and downside).
+In accordance with CRRA utility, a higher \(\gamma\) creates a more risk-averse strategy with lower optimal betting fractions and reduced volatility. By tailoring \(f^*\) to an individual's \(\gamma\), this generalized CRRA-Kelly strategy provides a more nuanced approach to betting that aligns with personal risk preferences. I would contend that it is potentially a more intuitive way to control risk than "fractional-Kelly" strategies (where a somewhat arbitrary and fixed fraction is applied to the standard Kelly Criterion to reduce volatility and downside).
 
 # References
 **Kelly Jr., J. L.** 1956. "A New Interpretation of Information Rate." *Bell System Technical Journal* 35, no. 4: 917–926. https://doi.org/10.1002/j.1538-7305.1956.tb03809.x.
