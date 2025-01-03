@@ -42,7 +42,7 @@ $$
 \frac{(2,000)^{1-\gamma} - 1}{1 - \gamma} + \exp\left(-\left(-\ln 0.98\right)^{\alpha}\right)
 \cdot \frac{(1,000-X^*)^{1-\gamma} - 1}{1 - \gamma}
 $$
-When put into practice, this approach seems to run into a \textbf{plethora of issues}. To start, since Prelec's function is non-linear, it is \textbf{typically true} that \(w_{gain} + w_{loss} \neq 1\). This disrupts the coherence of the probability space but is likely not a direct deal-breaker for modeling irrational probability perceptions. We will also encounter many undefined or incoherent solutions for \(X^*\), especially at the "higher" combinations of \(\alpha\) and \(\gamma\) where \(W_{loss} = W_0 - X^* \geq 0\) and the \(X^*\) values turn negative. Let us go through an example calculation of \(X^*\) where \(\alpha = 0.25\) and \(\gamma = 0.7\). First, we can establish our CRRA utility function:
+When put into practice, this approach seems to run into a **plethora of issues**. To start, since Prelec's function is non-linear, it is **typically true** that \(w_{gain} + w_{loss} \neq 1\). This disrupts the coherence of the probability space but is likely not a direct deal-breaker for modeling irrational probability perceptions. We will also encounter many undefined or incoherent solutions for \(X^*\), especially at the "higher" combinations of \(\alpha\) and \(\gamma\) where \(W_{loss} = W_0 - X^* \geq 0\) and the \(X^*\) values turn negative. Let us go through an example calculation of \(X^*\) where \(\alpha = 0.25\) and \(\gamma = 0.7\). First, we can establish our CRRA utility function:
 $$
 u(w) = \frac{w^{0.3}-1}{0.3}
 $$
@@ -75,7 +75,7 @@ X^* \approx -18.23
 \]
 In this context, negative \(X^*\) values are incoherent and should be rejected.
 
-To save us from further calculations, the table below presents the \(X^*\) values across many combinations of \(\alpha\) and \(\gamma\). Each instance where \(X^*\) is negative is marked as "undef." Here, not only can we see the swaths of incoherent \(X^*\)'s, but we also observe a non-monotonic relationship between \(X^*\) and \(\alpha\). For any column \(\gamma\), going from top to bottom (or bottom to top) we see that \(X^*\) increases and then decreases as \(\alpha\) varies, suggesting inconsistencies in the over- and under-weighting patterns. We also see a curious risk aversion misalignment: For any particular row \(\alpha\), going from left to right, we can see that \(X^*\) starts off slowly decreasing, and then begins rapidly increasing at higher \(\gamma\) levels. This is problematic, as it contradicts the intuitive expectation that for participants with the same level of probability weighting, the participants with the greater risk aversion should be \textbf{less} tolerant of loss prospects in the risky option. Also, when we observe the uneven inverted-U shaped relationship between \(X^*\) and \(\alpha\), we see that at higher levels of \(\gamma\), there are unrealistic and \textbf{dramatic} jumps in \(X^*\) when transitioning from \(\alpha = 1\) to \(\alpha = 0.95\).
+To save us from further calculations, the table below presents the \(X^*\) values across many combinations of \(\alpha\) and \(\gamma\). Each instance where \(X^*\) is negative is marked as "undef." Here, not only can we see the swaths of incoherent \(X^*\)'s, but we also observe a non-monotonic relationship between \(X^*\) and \(\alpha\). For any column \(\gamma\), going from top to bottom (or bottom to top) we see that \(X^*\) increases and then decreases as \(\alpha\) varies, suggesting inconsistencies in the over- and under-weighting patterns. We also see a curious risk aversion misalignment: For any particular row \(\alpha\), going from left to right, we can see that \(X^*\) starts off slowly decreasing, and then begins rapidly increasing at higher \(\gamma\) levels. This is problematic, as it contradicts the intuitive expectation that for participants with the same level of probability weighting, the participants with the greater risk aversion should be **less** tolerant of loss prospects in the risky option. Also, when we observe the uneven inverted-U shaped relationship between \(X^*\) and \(\alpha\), we see that at higher levels of \(\gamma\), there are unrealistic and **dramatic** jumps in \(X^*\) when transitioning from \(\alpha = 1\) to \(\alpha = 0.95\).
 
 #### (Table 1)
 ![Image alt](images/Unframed_Prelec_Table.png)
@@ -108,3 +108,17 @@ This approach seems to address almost **all** of the issues we encountered in th
 
 Now, let us proceed with strategy (b) in constructing our probability weighting quiz. Similar to the risk aversion quiz, we will use adaptive questioning to elicit the participant's probability weighting coefficient. We will also incorporate the participant's risk aversion coefficient &mdash; obtained from the risk aversion quiz &mdash; to tailor the probability weighting questions they are asked. The \(\approx\) 63:37 split in Option B of the risk aversion quiz was deliberately chosen to align with the fixed inflection point at \(1/e\) in our weighting function. This inflection point is where subjective and objective probabilities are always equal. By using this split and making the strong assumption that \(\approx36.79\%\) probabilities are generally accurately perceived, we can make another strong assumption that responses to the risk aversion quiz were not influenced by probability weighting. This allows us to isolate and independently measure both risk aversion and probability weighting.
 Let us go through the construction and administration of the probability weighting quiz:
+
+ 1. **Initial Question:** Start with some moderate value of \(\alpha\) between 0 and 1. Then, look to the participant's \(\gamma\) to find the indifference loss amount ($X^*$). For example, let us start with $\alpha = 0.7$ for a participant with a  \(\gamma\) of 0.9:
+    - **Option A:** No bet.
+    - **Option B:** A 2\% probability of gaining \$1,000 (Total Wealth: \$2,000) and a 98\% probability of losing \$56.22 (Total Wealth: \$943.78).
+    The participant chooses either Option A (the safe option) or Option B (the risky option).
+2. **Adaptive Questioning:**
+    - **If Option A is chosen,** select a question from a higher \(\alpha\) row (e.g., \(\alpha = 0.75\)).
+    - **If Option B is chosen,** select a question from a lower \(\alpha\) row (e.g., \(\alpha = 0.7\)).
+ 3. **Assigning a Score:** Continue presenting questions, moving up or down the \(\alpha\) scale based on the participant's initial choice. When the participant reverses their choice direction, the quiz concludes and the \(\alpha\) value that aligns the closest with the last choice provides an estimate of the participant's probability weighting coefficient.
+
+# References
+**Griffith, R. M.** 1949. "Odds Adjustments by American Horse-Race Bettors." *The American Journal of Psychology* 62, no. 2: 290–294. http://www.jstor.org/stable/1418469.
+
+**Bordalo, Pedro, Nicola Gennaioli, and Andrei Shleifer.** 2012. "Salience Theory of Choice Under Risk." *The Quarterly Journal of Economics* 127, no. 3: 1243–1285. https://doi.org/10.1093/qje/qjs018.

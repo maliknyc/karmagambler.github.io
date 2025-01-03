@@ -80,6 +80,5 @@ Now, we can administer the quiz using an adaptive questioning strategy that elic
 3. **Assigning a Score:** Continue presenting questions, moving up or down the \(\gamma\) scale based on the participant's initial choice. When the participant reverses their choice direction (e.g., switches from choosing risky to safe or vice versa), the quiz concludes and the \(\gamma\) value that aligns the closest with the last choice provides an estimate of the participant's risk aversion coefficient.
 
 # References
-Prelec, Drazen. 1998. "The Probability Weighting Function." Econometrica 66, no. 3: 497–527. http://www.jstor.org/stable/2998573.
-
+**Prelec, Drazen.** 1998. "The Probability Weighting Function." *Econometrica* 66, no. 3: 497–527. http://www.jstor.org/stable/2998573.
 
