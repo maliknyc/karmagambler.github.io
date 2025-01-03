@@ -26,7 +26,7 @@ Similar to our previous quiz, both the initial wealth amount and the sure gain a
 
 First, let us examine two strategies for applying probability weighting in binary gambles: (a) independently applying the weighting function to both outcomes and (b) applying the weighting function to one probability and deriving the other as its complement.
 
-## (a) Independent Weighting of Both Probabilities
+### (a) Independent Weighting of Both Probabilities
 Here, the weighting function is independently applied to both the probability of gain and the probability of loss as follows:
 $$
 w_{gain} = w(p_{gain}), \quad w_{loss} = w(p_{loss})
@@ -77,7 +77,23 @@ In this context, negative \(X^*\) values are incoherent and should be rejected.
 
 To save us from further calculations, the table below presents the \(X^*\) values across many combinations of \(\alpha\) and \(\gamma\). Each instance where \(X^*\) is negative is marked as "undef." Here, not only can we see the swaths of incoherent \(X^*\)'s, but we also observe a non-monotonic relationship between \(X^*\) and \(\alpha\). For any column \(\gamma\), going from top to bottom (or bottom to top) we see that \(X^*\) increases and then decreases as \(\alpha\) varies, suggesting inconsistencies in the over- and under-weighting patterns. We also see a curious risk aversion misalignment: For any particular row \(\alpha\), going from left to right, we can see that \(X^*\) starts off slowly decreasing, and then begins rapidly increasing at higher \(\gamma\) levels. This is problematic, as it contradicts the intuitive expectation that for participants with the same level of probability weighting, the participants with the greater risk aversion should be \textbf{less} tolerant of loss prospects in the risky option. Also, when we observe the uneven inverted-U shaped relationship between \(X^*\) and \(\alpha\), we see that at higher levels of \(\gamma\), there are unrealistic and \textbf{dramatic} jumps in \(X^*\) when transitioning from \(\alpha = 1\) to \(\alpha = 0.95\).
 
-### (Table 1)
+#### (Table 1)
 ![Image alt](images/Unframed_Prelec_Table.png)
-### (Figure 1)
+#### (Figure 1)
 ![Image alt](images/Unframed_Plot.png)
+
+### (b) Dependent Weighting by Complementarity
+To rectify the issues arising from independent weighting, we can try a complementary weighting approach. Here, we apply the weighting function to either the probability of gain or the probability of loss and derive the other weighted probability as its complement. Let's try applying the weighting function only to the probability of gain:
+$$
+w_{gain} = w(p_{gain}), \quad w_{loss} = 1 - w_{gain}
+$$
+Assuming that \(U(W_{gain}) \neq U(W_{loss})\) and ensuring that \(1 - w_{gain} \neq 0\), our expected weighted utility becomes:
+$$
+\mathbf{E}[u(W)] = w_{gain} \cdot U(W_{gain}) + (1 - w_{gain}) \cdot U(W_{loss})
+$$
+In the context of our decision framework, this becomes:
+$$
+\mathbf{E}[u(W)] = \exp\left(-\left(-\ln 0.02\right)^{\alpha}\right) \cdot 
+\frac{(2,000)^{1-\gamma} - 1}{1 - \gamma} + \left(1-\exp\left(-\left(-\ln 0.02\right)^{\alpha}\right)\right)
+\cdot \frac{(1,000-X^*)^{1-\gamma} - 1}{1 - \gamma}
+$$
