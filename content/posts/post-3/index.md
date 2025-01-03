@@ -1,8 +1,10 @@
 +++
-title = '[Betting Behavior Methods 2] Probability Weighting Quiz'
+title = '[BBM 2] Probability Weighting Quiz'
 date = '2025-01-03'
 math = true
 +++
+
+# Betting Behavior Methodologies 2: Probability Weighting Quiz
 
 Building onto the [CRRA Quiz](https://maliknyc.github.io/karmagambler.github.io/posts/post-2/), we might want to assess how susceptible someone is to probability weighting: the tendency to overweight low probabilities and underweight large probabilities. For now, we'll focus on binary gambles with risky options that offer low-probability gains and high-probability losses. In other words, we're essentially attempting to explain "favorite-longshot bias" &mdash; an observed tendency for bettors to overvalue heavy underdogs and undervalue heavy favorites (Griffith 1949). Our setup might also bring to mind concepts from Salience Theory, which suggests that decision-makers overweight extremely &mdash; or "saliently" &mdash; unlikely events if they are aware of their possibility (i.e. we react more to possibility than we do to probability) (Bordalo 2012). The participant's baseline preferences will be modeled using the CRRA utility function and estimated risk aversion coefficient, \(\gamma\), elicited in the prior section. To capture the non-linear perception of probabilities, we will employ Prelec's probability weighting function:
 $$
@@ -71,4 +73,6 @@ X^* = 1,000 - \left( \frac{1,000^{0.3} - 1 - \exp\left(-\left(-\ln 0.02\right)^{
 \[
 X^* \approx -18.23
 \]
-In this context, negative $X^*$ values are incoherent and should be rejected. 
+In this context, negative $X^*$ values are incoherent and should be rejected.
+
+To save us from further calculations, Table 2 presents the $X^*$ values across many combinations of $\alpha$ and $\gamma$. Each instance where $X^*$ is negative is marked as ``undef." Here, not only can we see the swaths of incoherent $X^*$'s, but we also observe a non-monotonic relationship between $X^*$ and $\alpha$. For any column $\gamma$, going from top to bottom (or bottom to top) we see that $X^*$ increases and then decreases as $\alpha$ varies, suggesting inconsistencies in the over- and under-weighting patterns. We also see a curious risk aversion misalignment: For any particular row $\alpha$, going from left to right, we can see that $X^*$ starts off slowly decreasing, and then begins rapidly increasing at higher $\gamma$ levels. This is problematic, as it contradicts the intuitive expectation that for participants with the same level of probability weighting, the participants with the greater risk aversion should be \textbf{less} tolerant of loss prospects in the risky option. Also, when we observe the uneven inverted-U shaped relationship between $X^*$ and $\alpha$, we see that at higher levels of $\gamma$, there are unrealistic and \textbf{dramatic} jumps in $X^*$ when transitioning from $\alpha = 1$ to $\alpha = 0.95$.

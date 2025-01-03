@@ -1,8 +1,11 @@
 +++
-title = '[Betting Behavior Methods 1] CRRA Quiz'
+title = '[BBM 1] CRRA Quiz'
 date = '2025-01-02'
 math = true
 +++
+
+# Betting Behavior Methodologies 1: CRRA Quiz
+
 
 Let's look at a way to assess someone's risk-aversion level. The plan involves developing a quiz (or experimental task) that asks participants to choose between several safe and risky options. By analyzing their choices, we can estimate their *risk-aversion coefficient*, \(\gamma\), using the constant relative risk aversion (CRRA) utility framework defined as:
 
