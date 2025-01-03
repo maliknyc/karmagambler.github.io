@@ -1,5 +1,5 @@
 +++
-title = '[Betting] Probability Weighting Quiz'
+title = '[Betting Behavior Methods 2] Probability Weighting Quiz'
 date = '2025-01-03'
 math = true
 +++
