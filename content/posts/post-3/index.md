@@ -23,3 +23,20 @@ Let us establish a particular decision framework that tests our aforementioned f
 Similar to our previous quiz, both the initial wealth amount and the sure gain amount are arbitrary and chosen for consistency and interpretability. The probability distribution is chosen to produce an option that offers a low-probability gain prospect and a high-probability loss prospect, similar to a "longshot" bet or a lottery scenario where $X^*$ is the price of a lottery ticket a participant is willing to pay. To finish constructing our quiz, we will have to compute the \( X^* \) values where the participant will be indifferent between Option A and Option B at different combinations of \( \alpha \) and \( \gamma \).
 
 First, let us examine two strategies for applying probability weighting in binary gambles: (a) independently applying the weighting function to both outcomes and (b) applying the weighting function to one probability and deriving the other as its complement.
+
+## (a) Independent Weighting of Both Probabilities
+Here, the weighting function is independently applied to both the probability of gain and the probability of loss as follows:
+$$
+w_{gain} = w(p_{gain}), \quad w_{loss} = w(p_{loss})
+$$
+
+Using these weighted probabilities in a risky utility calculation gives us the expected weighted utility:
+$$
+\mathbf{E}[u(W)] = w_{gain} \cdot U(W_{gain}) + w_{loss} \cdot U(W_{loss})
+$$
+In the context of our decision framework, this becomes:
+$$
+\mathbf{E}[u(W)] = \exp\left(-\left(-\ln 0.02\right)^{\alpha}\right) \cdot 
+\frac{(2,000)^{1-\gamma} - 1}{1 - \gamma} + \exp\left(-\left(-\ln 0.98\right)^{\alpha}\right)
+\cdot \frac{(1,000-X^*)^{1-\gamma} - 1}{1 - \gamma}
+$$
