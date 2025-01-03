@@ -5,5 +5,5 @@ theme = 'ardeidae'
 
 [params]
 github = "https://github.com/maliknyc"
-dateform = "2025-01-02"
+dateform = "2006-01-02"
 email = "felixliangnyc@gmail.com"
