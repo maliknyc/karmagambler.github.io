@@ -1,6 +1,7 @@
 +++
 title = 'Test Post'
 date = '2025-01-02'
+math = true
 +++
 
 Testing!

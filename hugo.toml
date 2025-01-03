@@ -3,7 +3,19 @@ languageCode = 'en-us'
 title = 'KARMA GAMBLER'
 theme = 'ardeidae'
 
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)']]
+  
+
 [params]
 github = "https://github.com/maliknyc"
 dateform = "2006-01-02"
 email = "felixliangnyc@gmail.com"
+math = true
