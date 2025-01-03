@@ -8,7 +8,7 @@ Hi! This blog is my way of documenting some of my thoughts, research, opinions, 
 
 There's no rigid theme, but my current interests are largely divided between topics within:
 1. Metaphyiscs &mdash; the philosophy of self, free will, Buddhist philosophy
-2. Gambling &mdash; betting strategies, prediction markets, risk behavior
+2. Betting &mdash; risk behavior, betting strategies, prediction markets
 
 A bit about me: I'm a college student majoring in econ & data science who's trying to more about:
 - Behavioral economics
