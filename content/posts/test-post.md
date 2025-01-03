@@ -4,7 +4,7 @@ date = '2025-01-01'
 math = true
 +++
 
-Hi! This blog is my way of documenting some of my thoughts, research, opinions, and more. 
+Hi! This blog is my way of documenting some of my thoughts, research ideas, opinions, and more. 
 
 There's no rigid theme, but my current interests are largely divided between:
 1. Metaphyiscs &mdash; the philosophy of self, free will, Buddhist philosophy
