@@ -23,6 +23,7 @@ CRRA utility entails decreasing absolute risk aversion, the intuitive preference
 Let's establish the quiz's decision framework. Participants begin with an initial wealth of $1,000. In each round of the quiz, participants are presented with two options:
 - **Option A:** A sure gain of $150.
 - **Option B:** A 36.79% probability of gaining \( $X_1 \) and a 63.21% probability of gaining \( $X_2 \).
+
 The initial wealth amount is arbitrary and chosen to set a consistent baseline for all participants. The sure gain amount is also arbitrary and chosen to keep the subsequent demonstrative calculations consistent. The probability distribution (the \(\approx\) 63:37 split) is chosen as an approximation of the fixed inflection point at \(1/e\) in Prelec's probability weighting function, \( w(p)=\exp(-(-\ln p)^{\alpha}) \) (Prelec 1998). We will go into greater detail regarding the probability weighting function in the following section. For now, we are also avoiding the domain of losses and the concept of loss aversion altogether (although Option A can be interpreted as establishing a soft "reference point" of sorts at $1,150).
 
 Now, we construct the \($X_2\) indifference points given different \($X_1\) and \(\gamma\) values. We can establish an indifference condition where a participant is equally likely to choose between the safe and the risky option. The indifferent condition can be represented as:
