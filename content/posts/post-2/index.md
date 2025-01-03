@@ -1,5 +1,5 @@
 +++
-title = '[Betting] Constant Relative Risk Aversion Quiz'
+title = '[Betting] CRRA Quiz'
 date = '2025-01-02'
 math = true
 +++

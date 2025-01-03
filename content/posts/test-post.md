@@ -1,8 +1,7 @@
 +++
-title = 'Test Post'
-date = '2025-01-02'
+title = 'About This Blog'
+date = '2025-01-01'
 math = true
-draft = true
 +++
 
 Testing!
