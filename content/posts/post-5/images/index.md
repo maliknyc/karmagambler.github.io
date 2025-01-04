@@ -106,16 +106,3 @@ After \( T \) bets or upon bankruptcy, the following metrics can be recorded:
 | **\( \overline{\beta} \)**         | The average slope of log-wealth.                                                                                                                   | \( \dfrac{1}{N} \sum_{i=1}^{N} \beta^{(i)} \)                                                                               |
 | **\( \overline{T}_{\text{ruin}} \)** | The average time to ruin across all simulations.                                                                                                     | \( \dfrac{1}{C_{\text{ruin}}}\sum_{i=1}^{N} T_{\text{ruin}}^{(i)} \quad \text{for } \text{Ruin}^{(i)} = \text{True} \) |
 
-$$
-\mu_{\ln(W)} = \frac{1}{T_f}\sum_{k=1}^{T_f}\ln(W_k)
-$$
-
-$$
-\sigma_{\ln(W)} = \sqrt{\frac{1}{T_f} \sum_{k=1}^{T_f} \left( \ln(W_k) - \mu_{\ln (W)} \right)^2}
-$$
-
-$$
-\ln(W_k) = \beta k + \alpha + \epsilon_k \quad \Rightarrow \quad \beta = \frac{\ln(W_k) - \alpha - \epsilon_k}{k}
-$$
-
-where \( \alpha \) is the intercept and \( \epsilon_k \) represents residuals.
