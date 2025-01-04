@@ -152,3 +152,4 @@ Please see below for a bunch of the visualizations from the simulation runs:
 ![Image alt](images/RA_low_WP.png)
 ![Image alt](images/RA_low_log_WP.png)
 ![Image alt](images/RA_low_dist.png)
+
