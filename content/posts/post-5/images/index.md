@@ -77,6 +77,4 @@ To obtain statistically significant results, the simulation should be executed \
 | **\( \overline{\beta} \)**            | The average slope of log-wealth.                                                                                                                  | \( \dfrac{1}{N} \sum_{i=1}^{N} \beta^{(i)} \)                                                                               |
 | **\( \overline{T}_{\text{ruin}} \)** | The average time to ruin across all simulations.                                                                                                | \( \dfrac{1}{C_{\text{ruin}}}\sum_{i=1}^{N} T_{\text{ruin}}^{(i)} \quad \text{for } \text{Ruin}^{(i)} = \text{True} \) |
 
-
-
 ![Image alt](images/aggregate_stats_table.png)
