@@ -95,12 +95,12 @@ Furthermore, there may exist some disconnect between our "Generalized CRRA Kelly
 
 # References
 
-MacLean, Leonard C., Edward O. Thorp, and William T. Ziemba. 2011. *The Kelly Capital Growth Investment Criterion*. WORLD SCIENTIFIC. https://www.worldscientific.com/doi/abs/10.1142/7598.
+**MacLean, Leonard C., Edward O. Thorp, and William T. Ziemba.** 2011. *The Kelly Capital Growth Investment Criterion*. WORLD SCIENTIFIC. https://www.worldscientific.com/doi/abs/10.1142/7598.
 
-Prelec, Drazen. 1998. "The Probability Weighting Function." *Econometrica* 66(3): 497–527. http://www.jstor.org/stable/2998573.
+**Prelec, Drazen.** 1998. "The Probability Weighting Function." *Econometrica* 66(3): 497–527. http://www.jstor.org/stable/2998573.
 
-Bruine de Bruin, Wändi, and Katherine G. Carman. 2012. "Measuring Risk Perceptions: What Does the Excessive Use of 50% Mean?" *Medical Decision Making* 32(2): 232-236. https://doi.org/10.1177/0272989X11404077.
+**Bruine de Bruin, Wändi, and Katherine G. Carman.** 2012. "Measuring Risk Perceptions: What Does the Excessive Use of 50% Mean?" *Medical Decision Making* 32(2): 232-236. https://doi.org/10.1177/0272989X11404077.
 
-Yang, Yang, and Joachim Vosgerau. 2013. "Framing Influences Willingness to Pay but Not Willingness to Accept." *Journal of Marketing Research* 50: 725-738. https://doi.org/10.1509/jmr.12.0430.
+**Yang, Yang, and Joachim Vosgerau.** 2013. "Framing Influences Willingness to Pay but Not Willingness to Accept." *Journal of Marketing Research* 50: 725-738. https://doi.org/10.1509/jmr.12.0430.
 
-Tversky, Amos, and Daniel Kahneman. 1992. "Advances in Prospect Theory: Cumulative Representation of Uncertainty." *Journal of Risk and Uncertainty* 5(4): 297-323. http://ideas.repec.org/a/kap/jrisku/v5y1992i4p297-323.html.
+**Tversky, Amos, and Daniel Kahneman.** 1992. "Advances in Prospect Theory: Cumulative Representation of Uncertainty." *Journal of Risk and Uncertainty* 5(4): 297-323. http://ideas.repec.org/a/kap/jrisku/v5y1992i4p297-323.html.
