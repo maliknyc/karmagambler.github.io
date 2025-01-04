@@ -137,3 +137,17 @@ For consistency, let's keep the following simulation parameters fixed across all
 As can be observed in the output table below, the often dramatic jump in \(P_{\text{ruin}}\) from \(\alpha = 0.98\) to \(\alpha = 0.93\) might call for a more restricted range of meaningful \(\alpha\)'s. A clear and unsurprising pattern materializes in our results: Higher \(\alpha\)'s and \(\gamma\)'s generally lead to higher peak wealth levels, but at the cost of significantly higher rates of ruin. As can be expected, more conservative strategies yield better **averages** for this negative EV bet; however, the higher peaks produced by the more aggressive methods might actually be of some value given shorter time horizons, especially if a bettor has a specific **target wealth** in mind. Right now, the average final wealth levels alone seem to be ample evidence of the rather intuitive fact that betting less on unprofitable bets will yield all-around better long-term results. 
 
 ![Image alt](images/sim_outputs.png)
+
+Here are a bunch of visualizations from the simulation runs:
+![Image alt](images/high_log_WP.png)
+![Image alt](images/high_log_log_WP.png)
+![Image alt](images/high_log_dist.png)
+![Image alt](images/low_log_WP.png)
+![Image alt](images/low_log_log_WP.png)
+![Image alt](images/low_log_dist.png)
+![Image alt](images/RA_high_WP.png)
+![Image alt](images/RA_high_log_WP.png)
+![Image alt](images/RA_high_dist.png)
+![Image alt](images/RA_low_WP.png)
+![Image alt](images/RA_low_log_WP.png)
+![Image alt](images/RA_low_dist.png)
