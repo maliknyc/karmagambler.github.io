@@ -69,42 +69,34 @@ To obtain statistically significant results, the simulation should be executed \
     $$
     \left(\dfrac{C_{\text{ruin}}}{N}\right) \cdot 100\%
     $$
-
 - **\( \overline{W}_T \)**: The mean wealth achieved at the conclusion of all simulations.
     $$
     \dfrac{1}{N}\sum_{i=1}^{N} W_T^{(i)}
     $$
-
 - **\( \overline{W}_{\text{peak}} \)**: The typical maximum wealth attained across all simulations.
     $$
     \dfrac{1}{N}\sum_{i=1}^{N} W_{\text{peak}}^{(i)}
     $$
-
 - **\( \overline{W}_{\text{min}} \)**: The typical minimum wealth attained across all simulations.
     $$
     \dfrac{1}{N}\sum_{i=1}^{N} W_{\text{min}}^{(i)}
     $$
-
 - **\( W_{T}^{max} \)**: The maximum wealth achieved across all simulations.
     $$
     \underset{1 \leq i \leq N}{\text{max}} \, W_T^{(i)}
     $$
-
 - **\( \overline{\mu}_{\ln(W)} \)**: The mean of log-wealth.
     $$
     \dfrac{1}{N} \sum_{i=1}^{N} \mu_{\ln(W)}^{(i)}
     $$
-
 - **\( \overline{\sigma}_{\ln(W)} \)**: The standard deviation of log-wealth.
     $$
     \sqrt{\dfrac{1}{N} \sum_{k=1}^{N} \left( \ln(W_k) - \mu_{\ln W} \right)^2}
     $$
-
 - **\( \overline{\beta} \)**: The average slope of log-wealth.
     $$
     \dfrac{1}{N} \sum_{i=1}^{N} \beta^{(i)}
     $$
-
 - **\( \overline{T}_{\text{ruin}} \)**: The average time to ruin across all simulations.
     $$
     \dfrac{1}{C_{\text{ruin}}}\sum_{i=1}^{N} T_{\text{ruin}}^{(i)} \quad \text{for } \text{Ruin}^{(i)} = \text{True}
