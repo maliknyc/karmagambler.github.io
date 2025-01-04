@@ -107,5 +107,5 @@ To obtain statistically significant results, the simulation should be executed \
 
 - **\( \overline{T}_{\text{ruin}} \)**: The average time to ruin across all simulations.
     \(
-    \dfrac{1}{C_{\text{ruin}}}\sum_{i=1}^{N} T_{\text{ruin}}^{(i)} \quad; \text{Ruin}^{(i)} = \text{True}
+    \dfrac{1}{C_{\text{ruin}}}\sum_{i=1}^{N} T_{\text{ruin}}^{(i)}; \text{Ruin}^{(i)} = \text{True}
     \)
