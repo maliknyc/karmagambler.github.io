@@ -109,5 +109,3 @@ To obtain statistically significant results, the simulation should be executed \
     $$
     \dfrac{1}{C_{\text{ruin}}}\sum_{i=1}^{N} T_{\text{ruin}}^{(i)} \quad; \text{Ruin}^{(i)} = \text{True}
     $$
-
-![Image alt](images/aggregate_stats_table.png)
