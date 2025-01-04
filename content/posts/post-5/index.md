@@ -138,7 +138,7 @@ As can be observed in the output table below, the often dramatic jump in \(P_{\t
 
 ![Image alt](images/sim_outputs.png)
 
-I'll dump a bunch of the visualizations from the simulation runs below:
+Please see below for a bunch of the visualizations from the simulation runs:
 
 ![Image alt](images/high_log_WP.png)
 ![Image alt](images/high_log_log_WP.png)
