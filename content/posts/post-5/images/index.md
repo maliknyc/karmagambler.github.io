@@ -20,7 +20,7 @@ math = true
 Each simulation encapsulates a sequential series of bets where the proportion of the current wealth \( W \) that the bettor allocates to bet, \( f^* \), is based on \( p_{\text{perceived}} \) and aligns with their risk preferences as characterized by \( \gamma \):
 
 $$
-f^* = \frac{\left(\frac{p_{\text{perceived}}\cdotb}{1-p_{\text{perceived}}}\right)^\frac{1}{\gamma}-1}{b+\left(\frac{p_{\text{perceived}}\cdot b}{1-p_{\text{perceived}}}\right)^\frac{1}{\gamma}}
+f^* = \frac{\left(\frac{p_{\text{perceived}}\cdot b}{1-p_{\text{perceived}}}\right)^\frac{1}{\gamma}-1}{b+\left(\frac{p_{\text{perceived}}\cdot b}{1-p_{\text{perceived}}}\right)^\frac{1}{\gamma}}
 $$
 
 For each betting round, the amount to wager is computed as a fraction of the current wealth:
