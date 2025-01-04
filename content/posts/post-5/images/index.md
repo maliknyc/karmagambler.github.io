@@ -64,6 +64,7 @@ After \( T \) bets or upon bankruptcy, the following metrics can be recorded:
 **The main limitation** of our generalized formula with respect to modeling "irrational" betting behavior is that it still maximizes utility in a "rational" way, and thus, like the classical Kelly, will still **always** advise against placing a nonzero wager on a negative EV bet. However, one way we can effectively loosen this restriction in our simulations is through probability weighting or by introducing some distinction between "perceived" probabilities and actual probabilities. In accordance with our established decision framework, the simulation tests a single chosen bet against a bet sizing strategy each time we run it. Let us walk through the process for a **single** simulation. Before initiating the simulations, several critical parameters are established:
 
 - **\( N \)**: The total number of independent betting sequences to be simulated to ensure statistical significance.
+
 - **\( T \)**: The maximum number of bets allowed per simulation to prevent indefinite betting sequences.
 - **\( L \)**: The wealth level at which the bettor is considered bankrupt, terminating the sequence.
 - **\( W_0 \)**: Starting wealth of the bettor.
