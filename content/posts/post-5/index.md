@@ -8,7 +8,7 @@ math = true
 
 ## A Single Simulation
 
-**The main limitation** of our generalized formula with respect to modeling "irrational" betting behavior is that it still maximizes utility in a "rational" way, and thus, like the classical Kelly, will still **always** advise against placing a nonzero wager on a negative EV bet. However, one way we can effectively loosen this restriction in our simulations is through probability weighting or by introducing some distinction between "perceived" probabilities and actual probabilities. In accordance with our established decision framework, the simulation tests a single chosen bet against a bet sizing strategy each time we run it. Let us walk through the process for a **single** simulation. Before initiating the simulations, several critical parameters are established:
+**The main limitation** of our generalized formula with respect to modeling "irrational" betting behavior is that it still maximizes utility in a "rational" way, and thus, like the classical Kelly, will still **always** advise against placing a nonzero wager on a negative EV bet. However, one way we can effectively loosen this restriction in our simulations is through probability weighting or by introducing some distinction between "perceived" probabilities and actual probabilities. In accordance with our established decision framework, the simulation tests a single chosen bet against a bet sizing strategy each time we run it. Let's walk through the process for a **single** simulation. Before initiating the simulations, several critical parameters are established:
 
 - **\( N \)**: The total number of independent betting sequences to be simulated to ensure statistical significance.
 
@@ -63,7 +63,7 @@ After \( T \) bets or upon bankruptcy, the following metrics can be recorded:
 
 ## Multiple Simulations
 
-To obtain statistically significant results, the simulation should be executed \( N \) times, from \( i=1 \) to \( N \), each being independent betting sequences with the same parameters. We can establish a counter variable, \( C_{\text{ruin}} \), that increments by one each time a simulation results in bankruptcy to track the number of simulations that terminate before reaching \( T \) bets. Table 4 includes some aggregate statistics we can compute.
+To obtain statistically significant results, the simulation should be executed \( N \) times, from \( i=1 \) to \( N \), each being independent betting sequences with the same parameters. We can establish a counter variable, \( C_{\text{ruin}} \), that increments by one each time a simulation results in bankruptcy to track the number of simulations that terminate before reaching \( T \) bets. Let's look at some aggregate statistics we can compute.
 
 - **\( P_{\text{ruin}} \)**: The likelihood of a bettor reaching bankruptcy under the given bet, betting strategy, and risk preferences.
     \(
@@ -106,6 +106,30 @@ To obtain statistically significant results, the simulation should be executed \
     \)
 
 - **\( \overline{T}_{\text{ruin}} \)**: The average time to ruin across all simulations.
-    \(
-    \dfrac{1}{C_{\text{ruin}}}\sum_{i=1}^{N} T_{\text{ruin}}^{(i)}; \text{ Ruin}^{(i)} = \text{True}
-    \)
+    $$
+    \dfrac{1}{C_{\text{ruin}}}\sum_{i=1}^{N} T_{\text{ruin}}^{(i)} \quad \text{for } \text{Ruin}^{(i)} = \text{True}
+    $$
+
+## Incorporating Perceived Probability Weighting
+
+<table>
+    <thead>
+        <tr>
+            <th style="padding: 10px; text-align: left;">**Variable**</th>
+            <th style="padding: 10px;"></th>
+            <th style="padding: 10px; text-align: left;">**Definition**</th>
+            <th style="padding: 10px;"></th>
+            <th style="padding: 10px; text-align: left;">**Equation**</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="padding: 10px;">**\( P_{\text{ruin}} \)**</td>
+            <td style="padding: 10px;"></td>
+            <td style="padding: 10px;">The likelihood of a bettor reaching bankruptcy under the given bet, betting strategy, and risk preferences.</td>
+            <td style="padding: 10px;"></td>
+            <td style="padding: 10px;">\( \left(\dfrac{C_{\text{ruin}}}{N}\right) \cdot 100\% \)</td>
+        </tr>
+        <!-- Repeat for other rows -->
+    </tbody>
+</table>
