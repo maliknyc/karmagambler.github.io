@@ -3,6 +3,7 @@ title = '[BBM 2] Probability Weighting Quiz'
 date = '2025-01-03'
 math = true
 +++
+#### Levels 2 & 3
 
 # Betting Behavior Methodologies 2: Probability Weighting Quiz
 

@@ -3,6 +3,7 @@ title = '[BBM 5] Limitations & Looking Ahead'
 date = '2025-01-04'
 math = true
 +++
+#### Levels 2 & 3
 
 # Betting Behavior Methodologies 5: Limitations & Looking Ahead
 

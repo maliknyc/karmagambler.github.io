@@ -3,6 +3,7 @@ title = '[BBM 3] Generalized Kelly Criterion'
 date = '2025-01-03'
 math = true
 +++
+#### Levels 2 & 3
 
 # Betting Behavior Methodologies 3: Generalized Kelly Criterion
 

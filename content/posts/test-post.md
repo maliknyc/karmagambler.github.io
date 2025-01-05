@@ -3,6 +3,7 @@ title = 'About This Blog'
 date = '2025-01-01'
 math = true
 +++
+#### Levels 1 & 2
 
 Hi! This blog is my way of documenting some of my thoughts, research ideas, opinions, and more. It's much more for myself, but if you're here, welcome! Feel free to send me any thoughts or critiques at my email: felixliangnyc@gmail.com.
 
