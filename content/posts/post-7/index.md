@@ -6,7 +6,7 @@ math = true
 #### Level 3
 
 # About the Framework
-Let's talk a bit more about the Five Truths Framework I structure this site on. As mentioned in the first post, the framework I'm using is based on Nāgārjuna's Two Truths doctrine, a concept central to Mahāyāna  Buddhism. Although similar ideas can be traced back to pre-Buddha times (Yajnavalkya 2008, III.2.3.6), the doctrine was largely established in Nāgārjuna’s *Mūlamadhyamakakārikā* (MMK) around 150 CE, which distinguished between two categories of truth:
+Let's talk a bit more about the Five Truths Framework I decided to structure this site around. As mentioned in the first post, the framework I'm using is based on Nāgārjuna's Two Truths doctrine, a concept central to Mahāyāna  Buddhism. Although similar ideas can be traced back to pre-Buddha times (Yajnavalkya 2008, III.2.3.6), the doctrine was largely established in Nāgārjuna’s *Mūlamadhyamakakārikā* (MMK) around 150 CE, which distinguished between two categories of truth:
 1.	Conventional Truths (*Samvrti-satya*): Truths perceived and used in everyday life, shaped by conventions, mutual dependencies, and appearances. These truths rely on relational and contingent phenomena that obscure the ultimate nature of reality.
 2.	Ultimate Truths (*Paramārtha-satya*): Truths revealing the true nature of reality as it is – free from conceptual overlays and obscurations. This corresponds to the realization of emptiness (*śūnyatā*) (Nāgārjuna 1986, 24.8).
 
