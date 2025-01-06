@@ -1,5 +1,5 @@
 +++
-title = 'Five Levels of Truth'
+title = 'The Five Levels of Truth'
 date = '2025-01-05'
 math = true
 +++
