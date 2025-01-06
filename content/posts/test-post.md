@@ -28,7 +28,7 @@ Some hobbies of mine:
 - Listening to music & making [Spotify](https://open.spotify.com/user/ow6ad6boduguylrvmmq94t63d?si=75bac8c432a840d6) playlists
 - Drawing, sometimes
 
-# Important: Five Truths Framework
+# Five Truths Framework
 At the start of every post, I'll label what *level* of truth I'll be writing on. This will be in reference to a concept adapted from Mahayana Buddhism: Nagarjuna's Two Truths doctrine. In particular, I will be using my **five**-level hierarchy of truths, a slightly modifed version of Zenju's "Four Levels of the Twofold Truths." I will go more into detail about the motivation for this in a subsequent post titled "Five Levels of Truth," but for now, the hierarchy will be defined as:
 1. **Level 1: Names & Labels**
 - Just words that help us function day-to-day, but don't reflect any deeper reality on their own. Useful shorthand that help us **identify** things, but are inherently arbitrary themselves. An example would be: "I think we should name our child Rose."
