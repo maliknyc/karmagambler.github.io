@@ -29,7 +29,7 @@ Some hobbies of mine:
 - Drawing, sometimes
 
 # Five Truths Framework
-At the start of every post, I'll label what *level of truth* I'll be writing on. This will be in reference to a concept adapted from Mahāyāna Buddhism's Two Truths doctrine. In particular, I will be using my **five**-level hierarchy of truths, a slightly modifed version of Zenju's "Four Levels of the Twofold Truths." I will go more into detail about the motivation for this in a subsequent post titled "The Five Levels of Truth," but for now, the hierarchy will be defined as:
+At the start of every post, I'll label what *level of truth* I'll be writing on. This will be in reference to a concept adapted from Mahāyāna Buddhism's Two Truths doctrine. In particular, I will be using my **five**-level hierarchy of truths, a slightly modifed version of Zenju's "Four Levels of the Twofold Truths." I will go more into detail about the motivation for this in a subsequent post titled ["The Five Levels of Truth,"](https://maliknyc.github.io/karmagambler.github.io/posts/post-7/) but for now, the hierarchy will be defined as:
 1. **Level 1: Names & Labels**
 - Just words that help us function day-to-day, but don't reflect any deeper reality on their own. Useful shorthand that help us **identify** things, but are inherently arbitrary themselves. An example would be: "I think we should name our child Rose."
 2. **Level 2: Practical Models & Methods**
