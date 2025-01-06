@@ -33,7 +33,7 @@ At the start of every post, I'll label what *level of truth* I'll be writing on.
 1. **Level 1: Names & Labels**
 - Just words that help us function day-to-day, but don't reflect any deeper reality on their own. Useful shorthand that help us **identify** things, but are inherently arbitrary themselves. An example would be: "I think we should name our child Rose."
 2. **Level 2: Practical Models & Methods**
-- These are frameworks we build (like economic models and pragmatic ethical rules) that help us analyze and predict things. They're more structured than mere labels, but they're still simplified interpretations of reality. An example would be the statement, "stealing is bad."
+- These are frameworks we build that help us analyze and predict things. This includes economic models, pragmatic ethical rules/laws, and provisional probabilities. They're more structured than mere labels, but they're still simplified interpretations of reality. An example would be the statement, "stealing is bad."
 3. **Level 3: Reasoned and Principled Understanding**
 - Here, we rely on strong conceptual tools like mathematics, formal logic, direct observation, or deeper ethical reasoning to get at a truer picture. Accuracy and coherence is important, but we'll still operate within the humean realm of perception. An example would be the statement, "Upon weighing them on a scale, we can conclude that this watermelon weighs more than this apple."
 4. **Level 4: Attempts to Describe the Ultimate Reality**
