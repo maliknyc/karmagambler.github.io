@@ -16,11 +16,12 @@ Around 600 years after the composition of the MMK, Japanese Yogācāra scholar-m
 
 It's important to note that Nāgārjuna’s Two Truths are not meant to be separate realities, but rather two aspects of the same reality. Nāgārjuna’s doctrine of “the emptiness of emptiness” asserts that emptiness itself is dependently arisen, as it cannot exist inherently and relies on conventional phenomena to be understood (Jerome 2018). This interdependence implies that emptiness is also empty; if it were inherently existent, it would contradict the nature of emptiness and negate the truth that all phenomena are empty. Thus, emptiness can only conventionally exist, and for the unenlightened, ultimate truths are accessible only through conventional truths. The Two Truths are therefore ontologically inseparable – like two sides of the same coin. Zenju’s Four Levels conveys a similar idea but shifts the parity between conventional and ultimate levels down one step: the levels of conventional truths represent words, and their corresponding ultimate truths represent the substances that establish the words. As C1 is the “truth established only by language or verbal convention, while U4 is the truth based only on reality beyond language,” C2 is equivalent to U1, C3 is equivalent to U2, C4 is equivalent to U3, and C1 is too devoid of ontological basis to have an equivalent level of ultimate truth, while U4 transcends language and concepts in a way that is fundamentally incompatible with any level of conventional truth (Moro 2018, 82-83). Thus, I would argue that it is more helpful to understand the hierarchy through **five levels:**
 
-1. Level 1: \(\text{C}_1\)
-2. Level 2: \(\text{C}_2 = \text{U}_1\)
-3. Level 3: \(\text{C}_3 = \text{U}_2\)
-4. Level 4: \(\text{C}_4 = \text{U}_3\)
-5. Level 5: \(\text{U}_4\)
+1. **Level 1**: \(\text{C}_1\)
+
+2. **Level 2**: \(\text{C}_2 = \text{U}_1\)
+3. **Level 3**: \(\text{C}_3 = \text{U}_2\)
+4. **Level 4**: \(\text{C}_4 = \text{U}_3\)
+5. **Level 5**: \(\text{U}_4\)
 
 Please refer back [here](https://maliknyc.github.io/karmagambler.github.io/posts/test-post/) for a more detailed definition of each level **outside** of the Buddhist context.
 
