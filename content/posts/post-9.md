@@ -1,6 +1,6 @@
 +++
 title = 'Determinism in Buddhist Thinking'
-date = '2025-01-08'
+date = '2025-01-09'
 math = true
 +++
 #### Level 3
