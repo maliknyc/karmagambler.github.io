@@ -1,5 +1,5 @@
 +++
-title = 'Determinism in Buddhist Thinking
+title = 'Determinism in Buddhist Thinking'
 date = '2025-01-08'
 math = true
 +++
