@@ -5,7 +5,7 @@ math = true
 +++
 #### Levels 2 & 3
 
-I want this post to serve as a framework for any subsequent talk about free will. 
+I want this post to serve as a framework for any subsequent posts about free will. 
 
 It's quite frustrating to watch people who **think** they're at odds in a free will debate, but instead of delving into an actual disagreement, they're just using different frameworks to describe what is &mdash; and isn't &mdash; free will. Let's minimize such confusion by laying out two of the most prominent definitions of free will, both of which are perfectly valid, but may hold at different levels of truth.
 
