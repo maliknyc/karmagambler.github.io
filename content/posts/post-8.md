@@ -5,8 +5,6 @@ math = true
 +++
 #### Levels 2 & 3
 
-I want this to serve as a framework for any subsequent posts about free will. 
-
 It's quite frustrating to watch people who **think** they're at odds in a free will debate, but instead of delving into an actual disagreement, they're just using different frameworks to describe what is &mdash; and isn't &mdash; free will. Let's minimize such confusion by laying out two of the most prominent definitions of free will, both of which are perfectly valid, but may hold at different levels of truth.
 
 Because the main distinction between them lie in their relation to *determinism*, we should also be sure of how we're defining determinism. Here, the appropriate definition will be that of *causal determinism*: "the idea that every event is necessitated by antecedent events and conditions together with the laws of nature" (Hoefer 2024).
