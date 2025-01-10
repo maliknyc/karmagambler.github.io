@@ -1,6 +1,6 @@
 +++
 title = 'Free Will and Self in Buddhist Thinking'
-date = '2025-01-09'
+date = '2025-01-10'
 math = true
 +++
 #### Levels 2, 3, & 4
