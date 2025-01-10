@@ -1,5 +1,5 @@
 +++
-title = 'A Few Definitions of Free Will'
+title = 'Two Definitions of Free Will'
 date = '2025-01-08'
 math = true
 +++
