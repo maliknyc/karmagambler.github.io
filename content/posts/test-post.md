@@ -23,7 +23,7 @@ A bit about me: I'm a college student studying economics who's trying to learn m
 Some hobbies of mine:
 - Chess &mdash; I'm very rusty, but send me a challenge on [Chess.com](https://www.chess.com/member/salcastuchiano) or catch me @ the [Chess Forum](https://www.chessforum.com/) when I'm home in NY
 - Watching NBA & UFC &mdash; big fan of the Knicks & Petr Yan
-- Playing [Zetamac](https://arithmetic.zetamac.com/) &mdash; try to beat my high score of **144** on default settings (my highest **recorded** score was [this](https://youtube.com/shorts/MTKPN-nnpSw?si=8bV_O5dnGV-WqTAy))
+- Playing [Zetamac](https://arithmetic.zetamac.com/) and other brain games &mdash; try to beat my Zetamac high score of **144** on default settings (my highest **recorded** score was [this](https://youtube.com/shorts/MTKPN-nnpSw?si=8bV_O5dnGV-WqTAy)) or my PRs on [OpenQuant](https://openquant.co/math-game) (I technically hold the record for Flexibility)
 - Cooking &mdash; I make really good fried rice, steak, pan-roasted fish, and steamed eggs
 - Listening to music & making [Spotify](https://open.spotify.com/user/ow6ad6boduguylrvmmq94t63d?si=75bac8c432a840d6) playlists
 - Drawing, sometimes
