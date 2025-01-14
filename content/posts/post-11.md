@@ -1,6 +1,6 @@
 +++
-title = 'Free Will and Self in Buddhist Thinking'
-date = '2025-01-10'
+title = '[Rant] Five Guys'
+date = '2025-01-13'
 math = true
 +++
 #### Levels 1 & 2
