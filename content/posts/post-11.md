@@ -5,7 +5,7 @@ math = true
 +++
 #### Levels 1 & 2
 
-Five Guys is trash. It's an inherently flawed burger that cannot be good, and I truly believe that almost everyone who swears they enjoy Five Guys has either been fooled by their marketing, is trying to cope and justify them spending $20 on a below-average burger, or they've just never had a decent burger before.
+Five Guys is trash. Their burgers are inherently flawed and cannot be good, and I truly believe that almost everyone who swears they enjoy Five Guys has either been fooled by their marketing, is trying to cope and justify them spending $20 on a below-average burger, or they've just never had a decent burger before.
 
 I'm going to start with the fact that it is literally company policy for them [not to season the beef](https://www.fiveguys.com/-/media/public-site/files/allergen-ingredients-and-nutrition-info/allergen-guide/nutrition-allergen-march-2018-us.ashx). Their reasoning is likely along the lines of "we want the quality of the meat to shine." That's absolute horse-shit. They use a standard chuck mince with an 80-20 lean-fat ratio, and that's it. If you cooked me an A5 Wagyu ribeye &mdash; a steak that costs over $100 a pound &mdash; and told me you didn't even salt it, I wouldn't eat it. Nobody who knows anything about cooking would eat it or prepare it that way.
 
