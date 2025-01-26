@@ -1,5 +1,5 @@
 +++
-title = '[Rant] Five Guys Sucks Ass'
+title = '[Rant] Five Guys'
 date = '2025-01-13'
 math = true
 +++
