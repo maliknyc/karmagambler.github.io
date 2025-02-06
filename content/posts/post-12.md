@@ -2,7 +2,7 @@
 title = 'Introduction to Hedging for Bettors'
 date = '2025-02-05'
 math = true
-draft = true
+draft = false
 +++
 #### Levels 2 & 3
 
