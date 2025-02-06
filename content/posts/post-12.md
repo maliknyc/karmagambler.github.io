@@ -1,6 +1,6 @@
 +++
 title = 'Introduction to Hedging for Bettors'
-date = '2025-01-26'
+date = '2025-02-05'
 math = true
 draft = true
 +++
