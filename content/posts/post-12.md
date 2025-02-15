@@ -1,5 +1,5 @@
 +++
-title = '[Rant] Test'
+title = 'test'
 date = '2025-01-13'
 math = true
 +++
