@@ -47,20 +47,18 @@ jobs:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: |
-          hugo \
-            --gc \
-            --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"
-      - name: Remove symlinks from public folder
+          hugo --gc --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
+      - name: Create clean copy of public folder without symlinks
         run: |
-          find ./public -type l -delete
-          echo "Remaining symlinks (if any):"
-          find ./public -type l || echo "None"
+          rm -rf public-clean
+          rsync -avL public/ public-clean/
+          echo "Contents of public-clean:"
+          find public-clean
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
           name: github-pages
-          path: ./public
+          path: ./public-clean
 
   deploy:
     environment:
