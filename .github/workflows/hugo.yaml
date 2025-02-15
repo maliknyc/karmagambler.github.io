@@ -50,9 +50,9 @@ jobs:
           hugo --gc --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
       - name: Create deployment archive
         run: |
-          # Create a tarball of the public folder. 
-          # The -C option changes directory so that the tarball contains the files without an extra top-level folder.
-          tar -czf public.tar.gz -C public .
+          # Create a tarball of the public folder,
+          # following (dereferencing) any symlinks.
+          tar -czhf public.tar.gz -C public .
           echo "Created deployment archive:"
           ls -lh public.tar.gz
       - name: Upload artifact
