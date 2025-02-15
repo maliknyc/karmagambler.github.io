@@ -57,7 +57,7 @@ jobs:
           echo "Remaining symlinks (if any):"
           find ./public -type l || echo "None"
       - name: Upload artifact
-        uses: actions/upload-artifact@v1
+        uses: actions/upload-artifact@v4
         with:
           name: github-pages
           path: ./public
