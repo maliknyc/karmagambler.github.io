@@ -48,17 +48,18 @@ jobs:
           HUGO_ENV: production
         run: |
           hugo --gc --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
-      - name: Create clean copy of public folder without symlinks
+      - name: Create deployment archive
         run: |
-          rm -rf public-clean
-          rsync -avL public/ public-clean/
-          echo "Contents of public-clean:"
-          find public-clean
+          # Create a tarball of the public folder. 
+          # The -C option changes directory so that the tarball contains the files without an extra top-level folder.
+          tar -czf public.tar.gz -C public .
+          echo "Created deployment archive:"
+          ls -lh public.tar.gz
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
           name: github-pages
-          path: ./public-clean
+          path: public.tar.gz
 
   deploy:
     environment:
