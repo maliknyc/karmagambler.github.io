@@ -22,7 +22,7 @@ jobs:
         with:
           hugo-version: 'latest'
 
-      - name: Install npm dependencies if needed
+      - name: Install npm dependencies (if needed)
         run: |
           if [ -f package.json ]; then
             npm ci
@@ -32,7 +32,8 @@ jobs:
         run: hugo --gc --minify
 
       - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v1
+        # switch to v2 here
+        uses: actions/upload-pages-artifact@v2
         with:
           path: public
 
@@ -43,6 +44,10 @@ jobs:
       name: github-pages
 
     steps:
+      - name: Download Pages artifact
+        # match v2
+        uses: actions/download-pages-artifact@v2
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
