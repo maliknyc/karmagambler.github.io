@@ -1,12 +1,10 @@
 name: Deploy Hugo site
 
-# Trigger on pushes to your main branch (adjust if different)
 on:
   push:
     branches:
       - main
 
-# Give Pages and id-token access for the deploy action
 permissions:
   contents: read
   pages: write
@@ -18,29 +16,23 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1) Check out your repo
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # 2) Install Hugo
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: 'latest'
 
-      # 3) (Optional) Install any npm dependencies, if you have a theme that needs it
-      - name: Install dependencies
-        if: exists('package.json')
-        run: npm ci
+      - name: Install npm dependencies if needed
+        run: |
+          if [ -f package.json ]; then
+            npm ci
+          fi
 
-      # 4) Build the site
       - name: Build with Hugo
-        env:
-          HUGO_ENVIRONMENT: production
-          HUGO_ENV: production
-        run: hugo --gc --minify --baseURL "${{ steps.deployment.outputs.page_url }}/"
+        run: hugo --gc --minify
 
-      # 5) **Upload** the generated `public/` folder as the Pages artifact
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v1
         with:
@@ -52,7 +44,6 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
       - name: Deploy
