@@ -12,9 +12,7 @@ permissions:
 
 jobs:
   build:
-    name: Build site
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -30,7 +28,7 @@ jobs:
             npm ci
           fi
 
-      - name: Build with Hugo
+      - name: Build site
         run: hugo --gc --minify
 
       - name: Upload Pages artifact
@@ -39,13 +37,12 @@ jobs:
           path: public
 
   deploy:
-    name: Deploy to GitHub Pages
     needs: build
     runs-on: ubuntu-latest
     environment:
       name: github-pages
 
     steps:
-      - name: Deploy
+      - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
