@@ -1,21 +1,22 @@
-name: GitHub Pages via Hugo
+name: Deploy Hugo site to GitHub Pages
 
 on:
   push:
     branches:
-      - main    # adjust if your default branch is different
+      - main  # or your default branch
 
 permissions:
+  contents: read
   pages: write
   id-token: write
 
 jobs:
-  build:
+  pages:
     runs-on: ubuntu-latest
-    outputs:
-      artifact-path: public
+    environment: github-pages
+
     steps:
-      - name: Checkout
+      - name: Checkout code
         uses: actions/checkout@v3
 
       - name: Setup Hugo
@@ -23,27 +24,19 @@ jobs:
         with:
           hugo-version: 'latest'
 
-      - name: Install npm (if needed)
+      - name: (Optional) Install npm deps
         run: |
-          if [ -f package.json ]; then npm ci; fi
+          if [ -f package.json ]; then
+            npm ci
+          fi
 
       - name: Build site
         run: hugo --gc --minify
 
       - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v1
         with:
           path: public
 
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment: github-pages
-
-    steps:
-      - name: Download Pages artifact
-        uses: actions/download-pages-artifact@v2
-
       - name: Deploy to GitHub Pages
-        id: deploy
         uses: actions/deploy-pages@v4
