@@ -1,5 +1,4 @@
-baseURL = "https://maliknyc.github.io/"    # <-- no extra /karmagambler.github.io/
-publishDir = "docs" 
+baseURL = 'https://maliknyc.github.io/karmagambler.github.io/'
 languageCode = 'en-us'
 title = 'Maliknyc'
 theme = 'ardeidae'
