@@ -3,12 +3,10 @@ name: Build & Deploy Hugo site
 on:
   push:
     branches:
-      - main   # or your default branch
+      - main
 
 permissions:
-  contents: write
-  pages:     write
-  id-token:  write
+  contents: write  # so we can commit back to main
 
 jobs:
   build:
@@ -22,12 +20,13 @@ jobs:
         with:
           hugo-version: 'latest'
 
-      - name: Build site
-        run: hugo --gc --minify
+      - name: Build into docs/
+        run: hugo --gc --minify --destination docs
 
-      - name: Deploy to gh-pages
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Commit & Push `docs/` back to main
+        uses: EndBug/add-and-commit@v9
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: gh-pages
-          publish_dir: ./public
+          author_name: github-actions
+          author_email: github-actions@github.com
+          message: "chore: deploy Hugo site"
+          add: "docs"
