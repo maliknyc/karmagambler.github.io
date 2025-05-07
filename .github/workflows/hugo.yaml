@@ -3,17 +3,17 @@ name: GitHub Pages via Hugo
 on:
   push:
     branches:
-      - main    # or your default branch
+      - main    # adjust if your default branch is different
 
 permissions:
   pages: write
   id-token: write
 
 jobs:
-  pages:
+  build:
     runs-on: ubuntu-latest
-    environment: github-pages
-
+    outputs:
+      artifact-path: public
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -23,13 +23,27 @@ jobs:
         with:
           hugo-version: 'latest'
 
-      - name: Build with Hugo
+      - name: Install npm (if needed)
+        run: |
+          if [ -f package.json ]; then npm ci; fi
+
+      - name: Build site
         run: hugo --gc --minify
 
-      - name: Upload artifact for Pages
-        uses: actions/upload-pages-artifact@v1
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v2
         with:
           path: public
 
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment: github-pages
+
+    steps:
+      - name: Download Pages artifact
+        uses: actions/download-pages-artifact@v2
+
       - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v1
+        id: deploy
+        uses: actions/deploy-pages@v4
