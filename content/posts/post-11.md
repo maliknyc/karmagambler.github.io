@@ -2,6 +2,7 @@
 title = '[Rant] Five Guys'
 date = '2025-01-13'
 math = true
+draft = true
 +++
 #### Levels 1 & 2
 
