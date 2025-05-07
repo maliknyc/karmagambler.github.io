@@ -1,48 +1,28 @@
-name: Publish Hugo site to GitHub Pages
+name: Build & Deploy Hugo site
 
 on:
   push:
     branches:
-      - main   # or whatever your default branch is
-
-permissions:
-  contents: read
-  pages: write
-  id-token: write
+      - main   # or your default branch
 
 jobs:
-  publish:
+  build:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
-
     steps:
-      # 1) Check out your repository
-      - name: Checkout code
+      - name: Checkout
         uses: actions/checkout@v3
 
-      # 2) Install Hugo
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: 'latest'
 
-      # 3) Build your site
-      - name: Build with Hugo
+      - name: Build site
         run: hugo --gc --minify
 
-      # 4) Configure the Pages environment
-      - name: Configure Pages
-        uses: actions/configure-pages@v3
-
-      # 5) Upload the generated `public/` folder
-      - name: Upload artifact for Pages
-        uses: actions/upload-pages-artifact@v1
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          path: public
-
-      # 6) Deploy to GitHub Pages
-      - name: Deploy to GitHub Pages
-        id: deploy
-        uses: actions/deploy-pages@v2
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: ./public
